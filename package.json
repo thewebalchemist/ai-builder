@@ -1,0 +1,25 @@
+{
+  "name": "ai-website-maker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.5",
+    "@types/react": "18.0.28",
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "5.0.2"
+  },
+  "dependencies": {
+    "next": "^13.2.4",
+    "openai": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
