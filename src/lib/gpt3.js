@@ -1,4 +1,4 @@
-const { Configuration, OpenAIApi } = require("openai");
+import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
   apiKey: "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", // Replace this with your actual API key

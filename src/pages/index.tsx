@@ -23,10 +23,10 @@ const handleSubmit = async (e) => {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="bg-gray-100 min-h-screen">
+        <main className="bg-gray-100">
           <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Generate a Website with OpenAI
+            <h1 className="text-3xl font-extrabold text-white sm:text-4xl">
+              Generate a Website with
             </h1>
             <form onSubmit={handleSubmit} className="mt-8 sm:flex">
               <div className="w-full sm:max-w-md">
@@ -45,7 +45,7 @@ const handleSubmit = async (e) => {
               </div>
               <button
                 type="submit"
-                className="mt-3 w-full px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                className="mt-3 w-28 px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
               >
                 Generate Website
               </button>
